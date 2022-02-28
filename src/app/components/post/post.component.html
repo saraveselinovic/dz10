@@ -1,0 +1,8 @@
+<a routerLink="/posts" class="btn btn-outline-primary btn-sm mb-3">< Nazad</a>
+
+<div *ngIf="post" class="card">
+  <div class="card-body">
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.body }}</p>
+  </div>
+</div>

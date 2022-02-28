@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark mb-4">
+  <div class="container">
+    <a href="/" class="navbar-brand">Domaci</a>
+    <div>
+      <ul class="navbar-nav ml-auto">
+        <li
+          class="nav-item"
+          [routerLinkActive]="['active']"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a routerLink="/" class="nav-link">Pocetna</a>
+        </li>
+
+        <li
+          class="nav-item"
+          [routerLinkActive]="['active']"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a routerLink="/users" class="nav-link">Korisnici</a>
+        </li>
+
+        <li
+          class="nav-item"
+          [routerLinkActive]="['active']"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a routerLink="/posts" class="nav-link">Postovi</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
